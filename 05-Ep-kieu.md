@@ -17,7 +17,7 @@ Trong Java, có hai loại ép kiểu dữ liệu:
 
 ## 1. Nới rộng (widening)
 
-![](D:\data\source\Học lập trình web\Java\img\ep-kieu-du-lieu-noi-rong.jpg)
+![](D:\data\source\Hoc lap trinh web\Java\img\ep-kieu-du-lieu-noi-rong.jpg)
 
 **Nới rộng (widening):** Là quá trình làm tròn số từ kiểu dữ liệu có kích thước nhỏ hơn sang kiểu có kích thước lớn hơn. Kiểu biến đổi này không làm mất thông tin. Ví dụ chuyển từ int sang float. Chuyển kiểu loại này có thế được thực hiện ngầm định bởi trình biên dịch.
 
@@ -43,7 +43,7 @@ public class TestWidening {
 
 ## 2.Thu hẹp (narrowwing)
 
-![](D:\data\source\Học lập trình web\Java\img\ep-kieu-du-lieu-thu-hep.jpg)
+![](D:\data\source\Hoc lap trinh web\Java\img\ep-kieu-du-lieu-thu-hep.jpg)
 
 **Thu hẹp (narrowwing):** Là quá trình làm tròn số từ kiểu dữ liệu có kích thước lớn hơn sang kiểu có kích thước nhỏ hơn. Kiểu biến đổi này có thể làm mất thông tin như ví dụ ở trên. Chuyển kiểu loại này không thể thực hiện ngầm định bởi trình biên dịch, người dùng phải thực hiện chuyển kiểu tường minh.
 
