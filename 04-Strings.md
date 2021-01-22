@@ -79,7 +79,7 @@ System.out.println("The length of the txt string is: " + txt.length());
 - \b : cách nhau một khoảng backspace
 
   ```java
-  String txt = "Hello\tWorld!";
+  String txt = "Hello\bWorld!";
   ```
 
 ### 7. Dấu +

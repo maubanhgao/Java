@@ -89,7 +89,7 @@ Kiểu dữ liệu **Char** dùng để lưu trữ kí tự có kích cỡ bằn
 
 - **Ví dụ:** đây là bảng chứa ít kí tự Unicode
 
-  ![](D:\data\source\Học lập trình web\Java\img\1_Các kiểu dữ liệu trong Java_Howkteam_com.png)
+  ![](D:\data\source\Hoc lap trinh web\Java\img\1_Các kiểu dữ liệu trong Java_Howkteam_com.png)
 
   Khi ta khai báo **char a = ‘Ă’** thì bộ nhớ sẽ lưu mã Unicode là **‘\u0102’**
 
@@ -99,4 +99,4 @@ Kiểu dữ liệu **Char** dùng để lưu trữ kí tự có kích cỡ bằn
 
 bản chất String là một mảng lưu nhiều kí tự (char). Việc khai báo **String name = ‘KTEAM’** có thể diễn đạt như sau:
 
-![](D:\data\source\Học lập trình web\Java\img\2_Các kiểu dữ liệu trong Java_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\2_Các kiểu dữ liệu trong Java_Howkteam_com.png)

@@ -24,7 +24,7 @@ class KhachHang {
 
 ### 3. Lợi ích của các tính chất lập trình hướng đối tượng
 
-- ính kế thừa
+- Tính kế thừa
   - Lớp con (lớp A) có thể tận dụng lại các thuộc tính và phương thức của lớp cha (lớp B) (nghĩa là các thuộc tính và phương thức của lớp B có thể được tái sử dụng bởi lớp A).
   - Lớp A có thể định nghĩa thêm thuộc tính và phương thức mới của riêng nó và có thể định nghĩa lại (hay còn gọi là ghi đè phương thức, overriding) phương thức được kế thừa từ lớp B cho phù hợp với mục đích của nó.
 - Tính đóng gói
