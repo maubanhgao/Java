@@ -24,13 +24,13 @@ sortedSet.add("one");
 ### 4. Xoá một phần tử ra khỏi SortedSet 
 
 ```java
-Object firstElement = sortedSet.first();
+
 ```
 
 ### 5. Lấy phần tử đầu tiên SortedSet 
 
 ```java
-Object lastElement = sortedSet.last();
+Object firstElement = sortedSet.first();
 ```
 
 ### 6. Lấy phần tử cuối cùng SortedSet 
