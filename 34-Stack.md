@@ -6,7 +6,7 @@
 
 **chúng ta sử dụng** **Stack** **để lưu trữ các phần tử theo dạng ngăn xếp.**
 
-**Nó khác với Queue là phần tử nào được thêm đầu tiên sẽ được lấy ra đầu tiên.**
+Trái ngược với Queue . Nguyên tắc vào sau vào sau ra trước. Last in First Out
 
 - Tạo một Stack
 
@@ -24,9 +24,9 @@ Stack<String> stack = new Stack<String>();
 stack.push("1");
 ```
 
-## 3. Lấy một phần tử ra khỏi Stack 
+## 3. Xóa một phần tử ra khỏi Stack 
 
-- Chúng ta sử dụng phương thức pop để lấy một phần tử ra Stack
+- Chúng ta sử dụng phương thức pop để lấy một phần tử ra Stack (xóa) . Lấy phần tử vào cuối cùng
 
 ```java
 Stack<String> stack = new Stack<String>();
@@ -36,9 +36,10 @@ stack.push("1");
 String topElement = stack.pop();
 ```
 
-## 4. Xem phần tử đầu tiên Stack 
+## 4. Xem phần tử đầu tiên (phía sau) Stack 
 
 - Chúng ta có thể xem phần tử đầu tiên của Stack là gì mà không cần phải lấy nó ra khỏi Stack thông qua phương thức peek
+- Đầu tiên có nghĩa phần tử đầu tiên bên tay phải
 
 ```java
 Stack<String> stack = new Stack<String>();

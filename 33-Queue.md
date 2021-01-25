@@ -32,9 +32,9 @@ queue.add("element 1");
 queue.offer("element 2");
 ```
 
-## 4. Lấy một phần tử từ Queue 
+## 4. Xóa một phần tử từ Queue 
 
-Chúng ta có thể sử dụng phương thức poll và remove để lấy phần tử đầu tiên của Queue. Sự khác nhau giữa poll và remove là nếu Queue là rỗng thì phương thức remove sẽ ném lỗi còn poll sẽ trả về giá trị null.
+Chúng ta có thể sử dụng phương thức poll và remove để lấy phần tử đầu tiên của Queue để xóa. Sự khác nhau giữa poll và remove là nếu Queue là rỗng thì phương thức remove sẽ ném lỗi còn poll sẽ trả về giá trị null.
 
 ```java
 Queue<String> queue = new LinkedList<>();
