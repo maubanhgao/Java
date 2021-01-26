@@ -4,7 +4,7 @@
 
 **Java Regex hoặc Regular Expression (biểu thức chính quy)** là một API để định nghĩa một mẫu để tìm kiếm hoặc thao tác với chuỗi. Nó được sử dụng rộng rãi để xác định ràng buộc trên các chuỗi như xác thực mật khẩu, email, kiểu dữ liệu datetime, ...
 
-![](D:\data\source\Học lập trình web\Java\img\su-dung-regex-trong-java.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\su-dung-regex-trong-java.png)
 
 ## Gói java.util.regex
 
@@ -159,7 +159,7 @@ Bạn có thể test regex online bằng cách sử dụng trang web https://reg
 
 Ví dụ: tìm tất cả các chuỗi ngày tháng có định dạng dd-mm-yyyy hoặc dd/mm/yyyy trong chuỗi văn bản. Ta sử dụng regex = "\d{1,2}[-|/]\d{1,2}[-|/]\d{4}"
 
-![](D:\data\source\Học lập trình web\Java\img\vi-du-regex-trong-java.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\vi-du-regex-trong-java.png)
 
 Cú pháp của biểu thức chính quy sẽ được giải thích bên dưới.
 

@@ -2,7 +2,7 @@
 
 Lớp Wrapper trong java cung cấp cơ chế để chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng và từ đối tượng thành kiểu dữ liệu nguyên thủy.
 
-Từ J2SE 5.0, tính năng **autoboxing** và **unboxing** chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng và từ đối tượng thành kiểu dữ liệu nguyên thủy một cách tự động. Sự chuyển đổi tự động kiểu dữ liệu nguyên thủy thành kiểu đối tượng được gọi là autoboxing và ngược lại được gọi là unboxing.
+Từ J2SE 5.0, tính năng **autoboxing** và **unboxing** chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng và từ đối tượng thành kiểu dữ liệu nguyên thủy một cách tự động. Sự chuyển đổi tự động **kiểu dữ liệu nguyên thủy thành kiểu đối tượng được gọi là autoboxing** và ngược lại được gọi là unboxing.
 
 Trong java, có 8 lớp Wrapper chúng được thiết kế trong gói java.lang.
 

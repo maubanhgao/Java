@@ -62,4 +62,4 @@ public class TestString {
 
 ## 4. Kết luận
 
-**Tuỳ vào mục đích sử dụng trong** **lập trình Java****, mà ta chọn** **String** **hoặc** **StringBuffer** **hoặc** **StringBuilder****. Nếu chương trình mình có nhiều thread(tiến trình) cùng thao tác đến String thì mình sẽ chọn StrungBuffer vì nó hỗ chợ cơ chế thread safe còn nếu không cần thread safe thì ta chọn StringBuilder.**
+**Tuỳ vào mục đích sử dụng trong** **lập trình Java****, mà ta chọn** **String** **hoặc** **StringBuffer** **hoặc** **StringBuilder****. Nếu chương trình mình có **nhiều thread(tiến trình) cùng thao tác đến String** thì mình sẽ chọn **StrungBuffer vì nó hỗ chợ cơ chế thread safe** còn nếu không cần **thread safe thì ta chọn StringBuilder**.**
