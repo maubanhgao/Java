@@ -43,11 +43,11 @@ public class HelloWorld {
 
 Ta thấy xuất hiệt giá trị mặc định của thuộc tính khi khởi tạo, có nghĩa việc gán giá trị khi khởi tạo không thành công. Bây giờ ta hãy quan sát lại cách hiển thị trên Eclipse:
 
-![](D:\data\source\Học lập trình web\Java\img\2_Từ khóa this trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\2_Từ khóa this trong lập trình hướng đối tượng_Howkteam_com.png)
 
 Như cách Eclipse thể hiện thì những biến màu xanh biển là chính là thuộc tính, còn biến mà nâu là tham số trong phương thức. Như vậy, nếu không có this, ta đang gán giá trị tham số cho chính nó. Không tác động đến thuộc tính của đối tượng.
 
-![](D:\data\source\Học lập trình web\Java\img\3_Từ khóa this trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\3_Từ khóa this trong lập trình hướng đối tượng_Howkteam_com.png)
 
 Chỉ cần thêm **this**, màu sắc đã thay đổi.
 
@@ -139,7 +139,7 @@ public class HelloWorld {
 
 Việc chạy các phương thức khởi tạo có thể hiểu theo cách sau:
 
-![](D:\data\source\Học lập trình web\Java\img\5_Từ khóa this trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\5_Từ khóa this trong lập trình hướng đối tượng_Howkteam_com.png)
 
 ## 4. Trả về đối tượng (instance) của lớp hiện tại
 
@@ -156,7 +156,12 @@ public class Person {
 		this.age = age;
 		this.height = height;
 	}
-	
+    
+	@Override
+	public String toString() {
+		return "Person_2 [name=" + name + ", age=" + age + ", height=" + height + "]";
+	}
+    
 	public Person getInstance() {
 		return this;
 	}
@@ -178,4 +183,4 @@ public class HelloWorld {
 }
 ```
 
-Ở kết quả đều trả về chung một giá trị, giá trị in ra theo kiểu quy tắc kiểu dữ liệu tham chiếm : **[tên lớp]@[vị trí lưu trữ]**
+Ở kết quả đều trả về chung một giá trị, giá trị in ra theo kiểu quy tắc kiểu dữ liệu tham chiếu : **[tên lớp]@[vị trí lưu trữ]**

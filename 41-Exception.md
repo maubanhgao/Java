@@ -31,7 +31,7 @@ Ví dụ các lỗi mà trong lúc code **lập trình viên Java \**có thể �
 
 ## 4. Kiến trúc của ngoại lệ 
 
-![](D:\data\source\Học lập trình web\Java\img\exception.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\exception.png)
 
 - Throwable : là cha của tất cả **ngoại lệ** xảy ra trong chương trình bao gồm lỗi (**Error**) và ngoại lệ (**Exception**).
 
@@ -60,7 +60,7 @@ Ví dụ các lỗi mà trong lúc code **lập trình viên Java \**có thể �
   }
   ```
 
-- **Exception Runtime** : là cha của tất cả các class Uncheck. Anh khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
+- **Exception Runtime** : là cha của tất cả các class Uncheck. khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
 
   ```java
   public class MyDepositRuntimeException extends RuntimeException {
@@ -170,4 +170,6 @@ Các đoạn code trong khối lệnh **Finally** luôn luôn chạy cho dù có
 - Đóng kết nối xuống file .
 - Đóng kết nối xuống database.
 - Giải phóng bộ nhớ. Để hiểu thêm về bộ nhớ bạn có thể đọc bài viết tại đây
+
+Tham khao
 

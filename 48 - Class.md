@@ -106,7 +106,7 @@ public class HelloWorld {
 }
 ```
 
-rong khái báo lớp **Person**. Ta có phương thức eat(), có tham số truyền vào là biến foodName kiểu **String**. Ta sẽ in ra màn hình tên của đối tượng **Person** ăn món có tên là foodName. Vì phương thức eat() không trả về giá trị gì, ta để từ khóa là **void**.
+Trong khái báo lớp **Person**. Ta có phương thức eat(), có tham số truyền vào là biến foodName kiểu **String**. Ta sẽ in ra màn hình tên của đối tượng **Person** ăn món có tên là foodName. Vì phương thức eat() không trả về giá trị gì, ta để từ khóa là **void**.
 
 Ở phương thức getAge() là trả về tuổi của đối tượng. Vì vậy ta chọn từ khóa là int vì biến age trong class thuộc kiểu int. Rồi trong phương thức, ta **return** giá trị age của đối tượng về.
 
@@ -183,7 +183,7 @@ public class Person {
 
 Ta sẽ sửa làm chương trình main như sau:
 
-```
+```java
 public class HelloWorld {
 	public static void main(String[] args) {
 		Person a = new Person("Chau", 21, 1.7f);
@@ -195,6 +195,6 @@ public class HelloWorld {
 - Ta sẽ khởi tạo Person **a = new Person("Chau", 21, 1.7f);**. Truyền các tham số vào để gán cho các thuộc tính của đối tượng a.
 - Khi chạy phương thức khởi tạo, các thuộc tính của đối tượng a sẽ gán giá trị. Ta thấy sự tương đồng như sau:
 
-![](D:\data\source\Học lập trình web\Java\img\2_Class trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\2_Class trong lập trình hướng đối tượng_Howkteam_com.png)
 
 Như vậy, ta đang rút gọn lại code. Khi khởi tạo đối tượng thì lập tức gán các giá trị và các đối tượng luôn, người lập trình sẽ giảm code gán giá trị (Việc giảm code như thế này cũng giảm được rủi ro trong lập trình). Và ta thấy từ khóa **this** chính là đại diện cho đối tượng **a**, và sau này ta tạo các đối tượng **b,c**,… thì this sẽ đại diện tương tự.
