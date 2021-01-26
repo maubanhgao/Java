@@ -43,14 +43,15 @@ boolean contains123 = list.contains("123");
 
   ```java
   public class Employee {
-    
-    public boolean equals(Object o){
-      if(o == null)                return false;
-      if(!(o instanceof) Employee) return false;
+    public boolean equals(Object o) {
+  		if (o == null)
+  			return false;
+  		if (!(o instanceof Employee))
+  			return false;
   
-      Employee other = (Employee) o;
-      return this.employeeId == other.employeeId;
-    }
+  		Employee other = (Employee) o;
+  		return this.employeeID == other.employeeID;
+  	}
   }
   ```
 

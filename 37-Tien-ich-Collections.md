@@ -12,13 +12,13 @@
 
 **Collection trong java** là một root interface trong hệ thống cấp bậc Collection. Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
-![](D:\data\source\Học lập trình web\Java\img\colection-vs-collections-trong-java.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\colection-vs-collections-trong-java.png)
 
 ## I.2. Hệ thống cấp bậc Collection trong java
 
 Gói **java.util** chứa tất cả các lớp và interface của Collection.
 
-![](D:\data\source\Học lập trình web\Java\img\he-thong-cap-bac-colection-trong-java.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\he-thong-cap-bac-colection-trong-java.png)
 
 **Dưới đây là mô tả những interface chính của Collection**
 
@@ -81,18 +81,18 @@ Generic Collection trong java cho phép chỉ có một kiểu đối tượng t
 Ví dụ về non-generic collection - kiểu cũ
 
 ```JAVA
-ArrayList list = ``new` `ArrayList();
+ArrayList list = new ArrayList();
 ```
 
 Ví dụ về generic collection - kiểu mới
 
 ```java
-ArrayList<String> list = ``new` `ArrayList<String>(); 
+ArrayList<String> list = new ArrayList<String>(); 
 ```
 
 Trong generic collection, chúng ta phải chỉ định kiểu dữ liệu được đặt trong <...>. Từ JDK 1.5, khi sử dụng ArrayList bắt buộc phải chỉ định kiểu dữ liệu cho nó. Nếu bạn cố gắng thêm một đối tượng có kiểu khác vào, chương trình sẽ báo lỗi *compile-time*.
 
-![](D:\data\source\Học lập trình web\Java\img\vi-du-generic-collection-trong-java.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\vi-du-generic-collection-trong-java.png)
 
 ## Duyệt các phần tử của collection
 
@@ -214,11 +214,34 @@ System.out.println(index);
 Chúng ta sử dụng phưogn thức Copy để copy tất cả các giá trị từ một list vào một list khác.
 
 ```java
-List<String> source = new ArrayList<>();
-Collections.addAll(source, "e1", "e2", "e3");
+try {
+			// creating object of Source list and destination List
+			List<String> srclst = new ArrayList<String>(3);
+			List<String> destlst = new ArrayList<String>(3);
+			// Adding element to srclst
+			srclst.add("Ram");
+			srclst.add("Gopal");
+			srclst.add("Verma");
 
-List<String> destination = new ArrayList<>();
-Collections.copy(destination, source);
+			// Adding element to destlst // bat buoc phai co so luong phan tu truoc khong Empty
+			 destlst.add("1");
+			 destlst.add("2");
+			 destlst.add("3");
+			// copy element into destlst
+			Collections.copy(destlst, srclst);
+
+			// printing the srclst
+			System.out.println("Value of source list: " + srclst);
+
+			// printing the destlst
+			System.out.println("Value of destination list: " + destlst);
+		} catch (IllegalArgumentException e) {
+			System.out.println("Exception thrown : " + e);
+		}
+
+		catch (IndexOutOfBoundsException e) {
+			System.out.println("Exception thrown : " + e);
+		}
 ```
 
 - Chúng ta sử dụng hàm Collections.copy để copy.
@@ -228,7 +251,7 @@ Collections.copy(destination, source);
 Chúng ta muốn thực hiện đảo ngược thứ tự vị trí trong các phần tử trong List thì sử dụng phương thức reverse() như sau
 
 ```java
-List>String< list = new ArrayList<String>();
+List<String> list = new ArrayList<String>();
 
 list.add("one");
 list.add("two");
@@ -295,5 +318,5 @@ source.add("A");
 source.add("B");
 source.add("A");
 
-boolean replacedAny = source.replaceAll(source, "A", "C");
+boolean replacedAny = Collections.replaceAll(source, "A", "C");
 ```
