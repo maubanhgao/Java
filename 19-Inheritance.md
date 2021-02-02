@@ -4,7 +4,7 @@
 
 **Tính kế thừa** cho phép chúng ta cải tiến chương trình bằng cách kế thừa lại lớp cũ và phát triển những tính năng mới. Lớp con sẽ kế thừa tất cả những thành phần của lớp cha, nhờ sự chia sẻ này mới có thể mở rộng những đặc tính sẵn có mà không cần phải định nghĩa lại.
 
-![](D:\data\source\Học lập trình web\Java\img\4_Bốn tính chất của hướng đối tượng Java_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\4_Bốn tính chất của hướng đối tượng Java_Howkteam_com.png)
 
 ```java
 class Vehicle {
@@ -72,7 +72,7 @@ Việc sử dụng kế thừa nhằm tái sử dụng code đã viết trước
 
 **Ví dụ:** ta có 2 lớp **Person** và **Student** như sau
 
-![](D:\data\source\Học lập trình web\Java\img\1_Kế thừa trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\1_Kế thừa trong lập trình hướng đối tượng_Howkteam_com.png)
 
 
 
@@ -182,6 +182,6 @@ public class HelloWorld {
 
 Flow của chương trình có thể hiểu như sau:
 
-![](D:\data\source\Học lập trình web\Java\img\4_Kế thừa trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\4_Kế thừa trong lập trình hướng đối tượng_Howkteam_com.png)
 
 ## 4. Tại sao lại sử dụng kế thừa. Mục đích sử dụng kế thừa trong lập trình

@@ -91,7 +91,7 @@ Bike is created
 
 **Note**: super() được tự động thêm vào mỗi Constructor của class bởi trình biên dịch.
 
-![](D:\data\source\Học lập trình web\Java\img\tu-khoa-super-trong-java-1.jpg)
+![](D:\data\source\Hoc lap trinh web\Java\img\tu-khoa-super-trong-java-1.jpg)
 
 Như chúng ta đã biết Constructor được tạo ra tự động bởi trình biên dịch nhưng nó cũng thêm super() vào câu lệnh đầu tiên. Nếu bạn tạo Constructor và bạn không có this() hoặc super() ở dòng lệnh đầu tiên, trình biên dịch sẽ cung cấp super() của Constructor.
 
