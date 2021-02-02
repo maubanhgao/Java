@@ -100,11 +100,11 @@ public class HelloWorld {
 }
 ```
 
-![](D:\data\source\Học lập trình web\Java\img\2_Từ khóa static trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\2_Từ khóa static trong lập trình hướng đối tượng_Howkteam_com.png)
 
 Tuy nhiên, phương thức **static** không thể tác động đến thuộc tính và phương thức liên quan đối tượng (non-static).
 
-![](D:\data\source\Học lập trình web\Java\img\3_Từ khóa static trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\3_Từ khóa static trong lập trình hướng đối tượng_Howkteam_com.png)
 
 ## 4. Khối static
 
@@ -130,4 +130,4 @@ public class HelloWorld {
 }
 ```
 
-![](D:\data\source\Học lập trình web\Java\img\4_Từ khóa static trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Hoc lap trinh web\Java\img\4_Từ khóa static trong lập trình hướng đối tượng_Howkteam_com.png)
