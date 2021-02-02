@@ -17,7 +17,7 @@
 
 **Tham trị** **Pass by value** : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao tác giá trị với bản copy. Khi chúng ta thay đổi các giá trị của đối tượng, thì không ảnh hưởng đến giá trị gốc. Pass-by-value được hiểu là khi bạn thay đổi biến trong hàm thì ngoài hàm sẽ không bị ảnh hưởng.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\passbyvalue.png)
+![](D:\data\source\Học lập trình web\Java\img\passbyvalue.png)
 
 - Ở ví dụ trên ta thấy rất rõ giá trị của biến someValue
 
@@ -29,7 +29,7 @@
 
 - Như vậy dù trong hàm process(int value ) ta có thay đổi giá trị như thế nào đi chăng nữa thì lúc thoát ra khỏi hàm process(int value) giá trị gốc vẫn không thay đổi .
 
-  ![](D:\data\source\Hoc lap trinh web\Java\img\passbyvalue2.png)
+  ![](D:\data\source\Học lập trình web\Java\img\passbyvalue2.png)
 
 
 
@@ -37,7 +37,7 @@
 
 **Tham chiếu** **Pass by reference. Ngược lại với Pass by value, giá trị gốc sẽ bị thay đổi** **Pass-by-reference** là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng. Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\passbyreference.png)
+![](D:\data\source\Học lập trình web\Java\img\passbyreference.png)
 
 Trong trường hợp này hàm process(int &value) trỏ thằng tới địa chỉ vùng nhớ nơi lưu giá trị 7. Như vậy khi ta thay đổi giá trị trong hàm nó thay đổi luôn giá trị khác .
 

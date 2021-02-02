@@ -20,7 +20,7 @@ Chúng ta có thể sắp xếp các phần tử của:
 
 **Lớp Collections trong java** cung cấp các phương thức static để sắp xếp các phần tử của collection. Nếu các phần tử collection thuộc kiểu Set hoặc Map, chúng ta có thể sử dụng TreeSet hoặc TreeMap. Nhưng chúng ta không thể sắp xếp các phần tử của List. Collections cung cấp phương thức **sort()** để phân sắp xếp các phần tử của List.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\sorting-trong-collections.png)
+![](D:\data\source\Học lập trình web\Java\img\sorting-trong-collections.png)
 
 ### 3. Ví dụ về Comparable trong java
 
@@ -132,7 +132,7 @@ Chúng ta có thể sắp xếp các phần tử của:
 
 **public void sort(List list, Comparator c)**: được sử dụng để sắp xếp các phần tử của List theo cài đặt đối tượng Comparator.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\sorting-trong-collections.png)
+![](D:\data\source\Học lập trình web\Java\img\sorting-trong-collections.png)
 
 ### 4. Ví dụ về Comparator trong java
 

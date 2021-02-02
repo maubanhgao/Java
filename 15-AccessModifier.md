@@ -18,7 +18,7 @@
 
 **Ví dụ:** cho thuộc tính age của class **Person** ở dạng **private**, thì chỉ có thể truy cập age trong class Person.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\6_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\6_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
 
 ## 4. Từ khoá default dùng làm gì 
 
@@ -44,11 +44,11 @@ class Person {
 
 Nếu ta quay lại cho class **Person** và **HelloWorld** chung một package thì sử dụng được:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\7_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\7_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
 
 Nhưng nếu để class **Person** ở package **mypack** thì sẽ báo lỗi:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\8_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\8_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
 
 ## 5. Từ khoá protected dùng làm gì 
 
@@ -100,7 +100,7 @@ public class HelloWorld extends Person {
 }
 ```
 
-![](D:\data\source\Hoc lap trinh web\Java\img\9_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\9_Các loại phạm vi truy cập trong lập trình hướng đối tượng_Howkteam_com.png)
 
 ## 6. Từ khoá static dùng làm gì 
 

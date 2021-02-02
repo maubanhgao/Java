@@ -69,9 +69,6 @@ public class Dog2 {
 
 Khi kiểu của lớp con tham chiếu tới đối tượng của lớp cha được gọi là downcasting. Nếu bạn thực hiện tham chiếu trực tiếp thì trình biên dịch sẽ báo lỗi biên dịch. Nếu bạn thực hiện bằng việc ép kiểu thì lỗi ngoại lệ ClassCastException được ném ra lúc runtime. Nhưng nếu bạn sử dụng toán tử instanceof thì downcasting được.
 
-- Con không thể tạo đối tượng bằng cha một cách trực tiếp được
-- Nhưng cha có thể tạo đối tượng thông qua downcasting. 
-
 Tham chiếu trực tiếp:
 
 ```java

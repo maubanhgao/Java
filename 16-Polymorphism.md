@@ -4,11 +4,11 @@
 
 **Tính đa hình** **có nghĩa là cùng một hành động nhưng ở những ngữ cảnh khác nhau thì cho ra những hành động khác nhau, hoặc cho ra các kết quả khác nhau.**
 
-**Tính đa hình** có thể nói luôn tồn tại **song song với tính kế thừa**. Khi có nhiều lớp con kế thừa lớp cha nhưng có những tính chất khác nhau cũng gọi là đa hình, hoặc những tác vụ trong cùng một đối tượng được thể hiện nhiều cách khác nhau cũng gọi là đa hình. Tính đa hình là kết quả tất yếu khi ta phát triển khả năng kế thừa và nâng cấp chương trình.
+**Tính đa hình** có thể nói luôn tồn tại song song với tính kế thừa. Khi có nhiều lớp con kế thừa lớp cha nhưng có những tính chất khác nhau cũng gọi là đa hình, hoặc những tác vụ trong cùng một đối tượng được thể hiện nhiều cách khác nhau cũng gọi là đa hình. Tính đa hình là kết quả tất yếu khi ta phát triển khả năng kế thừa và nâng cấp chương trình.
 
 **Ví dụ:** trong hình học tứ giác, hình thang có 3 lớp con là hình thang cân, hình thang vuông và hình bình hành. Vì 3 hình này có vài tính chất riêng biệt nên có thể gọi là tính đa hình.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\5_Bốn tính chất của hướng đối tượng Java_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\5_Bốn tính chất của hướng đối tượng Java_Howkteam_com.png)
 
 **Ví dụ**
 

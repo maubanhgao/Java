@@ -32,9 +32,7 @@ Ví dụ đọc thông tin của file db.properties, đầu tiên tạo một fi
 File: db.properties
 
 ```properties
-null 
-user=admin 
-password=1234567890
+null user=admin password=1234567890
 ```
 
 Tạo lớp PropertiesExample1.java

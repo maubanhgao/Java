@@ -2,13 +2,13 @@
 
 [TOC]
 
-## 1. Map trong lập trình Java là gì 
+#### 1. Map trong lập trình Java là gì 
 
 **Map lưu trữ các phần tử theo định dạnh key và value.**
 
 **ví dụ** sinh viên thường có mã sinh viên và thông tin sinh viên. Như vậy key ở đây chính là mã sinh viên còn thông tin sinh viên chính là giá trị. Dựa vào key mà chúng ta có thể lấy ra sinh viên tương ứng. Key là giá trị duy nhất không trung lặp
 
-## 2. Các class thực thi của Map 
+#### 2. Các class thực thi của Map 
 
 Chúng ta có những tập hợp sau cài đặt interface Map đó là
 

@@ -40,7 +40,7 @@ public class Student extends Person implements IStudy{
 
  Nếu dùng Eclipse, bạn sẽ thấy IDE yêu cầu override lại phương thức **study()** của **IStudy** ngay:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\1_Interface trong lập trình hướng đối tượng Java_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\1_Interface trong lập trình hướng đối tượng Java_Howkteam_com.png)
 
 Ta sẽ overriding, thêm đoạn chương trình trong lớp **Student** như sau:
 
@@ -74,7 +74,7 @@ public abstract class Person implements ISpeak{}
 
  Bởi vì class **Person** là lớp ảo, nên **Person** không cần override phương thức **speak()**. Ngoài ra, **Student** là lớp con **Person**, nên mặc dù **Student** không kế thừa **ISpeak** trực tiếp nhưng vẫn phải override phương thức **speak()**. Ta sẽ thấy Eclipse yêu cầu khai báo:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\2_Interface trong lập trình hướng đối tượng Java_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\2_Interface trong lập trình hướng đối tượng Java_Howkteam_com.png)
 
 Ta sẽ hoàn thiện lớp **Student** như sau:
 

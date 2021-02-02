@@ -4,7 +4,7 @@
 
 ## 1. Các collection trong lập trình java 
 
-![](D:\data\source\Hoc lap trinh web\Java\img\he-thong-cap-bac-colection-trong-java.png)
+![](D:\data\source\Học lập trình web\Java\img\he-thong-cap-bac-colection-trong-java.png)
 
 ## 2. List 
 

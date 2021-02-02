@@ -16,11 +16,11 @@ Biểu thức Lambda cung cấp bản cài đặt cho *Functional Interface*. **
 
 Ví dụ khai báo Functional Interface đúng:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\bieu-thuc-lambda-trong-java-8-4.png)
+![](D:\data\source\Học lập trình web\Java\img\bieu-thuc-lambda-trong-java-8-4.png)
 
 Ví dụ khai báo Functional Interface không đúng: Lỗi cú pháp vì interface chỉ được chứa 1 phương thức trừu tượng.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\bieu-thuc-lambda-trong-java-8-5.png)
+![](D:\data\source\Học lập trình web\Java\img\bieu-thuc-lambda-trong-java-8-5.png)
 
 ## Tại sao sử dụng biểu thức Lambda
 
@@ -240,13 +240,13 @@ Chúng ta sẽ cùng tìm hiểu bản chất của biểu thức Lambda trong h
 
 Đây là nội dung của hàm java.util.ArrayList.forEach().
 
-![](D:\data\source\Hoc lap trinh web\Java\img\bieu-thuc-lambda-trong-java-8-1.png)
+![](D:\data\source\Học lập trình web\Java\img\bieu-thuc-lambda-trong-java-8-1.png)
 
 Hàm forEach() có một tham số truyền vào là đối tượng **Consumer** với tên biến là action. Sau đó nó gọi hàm action.accept(), hàm này có tham số là các phần tử của ArrayList.
 
 java.util.function.Consumer là một Functional Interface có duy nhất một hàm accept() được định nghĩa như sau:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\bieu-thuc-lambda-trong-java-8-2.png)
+![](D:\data\source\Học lập trình web\Java\img\bieu-thuc-lambda-trong-java-8-2.png)
 
 Có nghĩa là chúng ta cần phải tạo một đối tượng nặc danh từ Consumer interface để cung cấp thân hàm cho accept().
 
@@ -254,7 +254,7 @@ Chúng ta có thể viết lại chương trình ví dụ biểu thức Lambda v
 
 java.util.function.Consumer là một Functional Interface có duy nhất một hàm accept() được định nghĩa như sau:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\bieu-thuc-lambda-trong-java-8-3.png)
+![](D:\data\source\Học lập trình web\Java\img\bieu-thuc-lambda-trong-java-8-3.png)
 
 Kết quả
 

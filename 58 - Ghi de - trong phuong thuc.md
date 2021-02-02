@@ -47,7 +47,7 @@ public class Bike2 extends Vehicle {
 
 Giả sử Bank là một lớp cung cấp chức năng xem thông tin tỷ lệ lãi suất. Nhưng mỗi ngân hàng có một lãi xuất khác nhau, ví dụ các ngân hàng SBI, ICICI và AXIS có tỷ lệ lãi suất lần lượt là 8%, 7% và 9%.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\ghi-de-phuong-thuc-trong-java1.png)
+![](D:\data\source\Học lập trình web\Java\img\ghi-de-phuong-thuc-trong-java1.png)
 
 Dưới đây là cài đặt cho ví dụ trên:
 

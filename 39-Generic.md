@@ -90,7 +90,7 @@ Ví dụ ta viết một phương thức in tất cả các phần tử là Gene
 
 //Array doubleArrayGeneric contains: 2.1 3.2 4.3 5.4
 
-//Array characterArray contains: L E V U O
+/Array characterArray contains: L E V U O
 ```
 
 Như vậy ở ví dụ trên ta tạo ra một phương thức in ra màn hình là generic . Tuỳ thuộc vào đối số truyền vào là Integer , String, hay Double thì phương thức in đều in ra được các phần tử Nếu ta truyền đối số là Integer thì sẽ nhận được kết quả là các số nguyên trong tập hợp được in ra . Nếu ta truyền đối số là Double thì ta sẽ nhận được các số thực được in ra . Như vậy ta chỉ viết code 1 lần và sử dụng được cho tất cả các đối số là những kiểu dữ liệu khác nhau.

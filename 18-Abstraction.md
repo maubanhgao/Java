@@ -6,7 +6,7 @@
 
 **Tính trừu tượng** là một tiến trình chỉ nói ra tính năng của người dùng, các khái niệm được định nghĩa trong quá trình phát triển, bỏ qua những chi tiết triển khai bên trong. Tính trừu tượng cho phép người lập trình tập trung cốt lõi cần thiết của đối tượng thay vì quan tâm sự phức tạo bên trong hoặc cách nó hoạt động.
 
-![](D:\data\source\Hoc lap trinh web\Java\img\3_Bốn tính chất của hướng đối tượng Java_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\3_Bốn tính chất của hướng đối tượng Java_Howkteam_com.png)
 
 **Trong một lớp abstract ta khai báo một phương thức abstract bằng từ khoá abstract tên method.**
 

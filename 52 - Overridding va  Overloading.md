@@ -43,7 +43,7 @@ public final void getInfo() {
 
 Lớp con sẽ không thể Overriding được phương thức **getInfo()**
 
-![](D:\data\source\Hoc lap trinh web\Java\img\1_Overriding và Overloading trong Java_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\1_Overriding và Overloading trong Java_Howkteam_com.png)
 
 ## 2. Overloading là gì? Cách sử dụng
 
@@ -130,4 +130,4 @@ public class HelloWorld {
 
 Như vậy, ứng với tham số kiểu dữ liệu nào, Java sẽ gọi phương thức liên quan mà không gặp rắc rối nào:
 
-![](D:\data\source\Hoc lap trinh web\Java\img\2_Overriding và Overloading trong Java_Howkteam_com.png)
+![](D:\data\source\Học lập trình web\Java\img\2_Overriding và Overloading trong Java_Howkteam_com.png)
